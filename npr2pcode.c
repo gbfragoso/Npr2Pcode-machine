@@ -87,7 +87,7 @@ int nprAnalizer(char *epr){
 	        
 	        // Points next array position
 	        aux++;
-	    }else { // Otherwise, move on to the next character.
+	    }else {
 	        switch(*p){
 	        	case '+':{
 	        		Tinstruction plusLod;
